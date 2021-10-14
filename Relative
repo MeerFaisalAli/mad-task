@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="415dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/top"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="-15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/circle"
+        android:layout_marginTop="38dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1000dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="615dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/random"
+        android:layout_marginTop="640dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="A suitable match will be assigned to you based on your match"
+        android:layout_marginTop="600dp"/>
+
